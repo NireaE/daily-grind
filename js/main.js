@@ -2,7 +2,7 @@
 function coffeeTemplate(coffee){
 
  return `<p>
-            <img src="images/${coffee.pic}" alt="${coffee.alt}" />
+            <img src="images/${coffee.pic}" alt="${coffee.alt}" id="coffee" />
             <strong>${coffee.day}'s Coffee Special:</strong> ${coffee.day}'s daily coffee special is ${coffee.name}, ${coffee.desc}
          </p>`;
 
